@@ -35,7 +35,7 @@ class NewTodoForm extends Component {
           onChange={this.handleChange}
           type="text"
           id="task"
-          placeholder="new todo..."
+          placeholder="..."
           name="task"
         />
         <button disabled={this.state.task.length === 0}>New Todo</button>
